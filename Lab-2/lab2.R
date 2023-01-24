@@ -1,10 +1,14 @@
-#2020BCS0094
+# Find all the files on 
+# https://github.com/Abhijit25Mishra/R-Lab--ICS-321-
+# https://rpubs.com/Panda_250
+print("Abhijit Mishra")
 
 # Create a R program to check whether the number is odd or even.
 
 # Reading input and converting it to integer
-inp = readline()
-inp = as.integer(inp)
+# inp = readline()
+# inp = as.integer(inp)
+inp = 5
 
 # condition to find weather even or odd
 if( inp %% 2 == 0 ){

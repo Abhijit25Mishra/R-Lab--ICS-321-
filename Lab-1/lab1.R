@@ -1,5 +1,10 @@
-#2020BCS0094
+# Find all the files on 
+# https://github.com/Abhijit25Mishra/R-Lab--ICS-321-
+# https://rpubs.com/Panda_250
+print("Abhijit Mishra")
 
+
+#2020BCS0094
 # question 1
 
 z <- c(0.1, 0.6, 33.8, 1.9, 9.6, 4.3, 33.7, 0.3, 0.0, 0.1) # Inputting values into a vector
@@ -78,7 +83,7 @@ hist(colMeans(m_new))
 # setting the working dir and reading the data
 
 print(getwd())
-setwd("C:/Users/ASUS/OneDrive/Desktop/Study-Material/IIIT-Kottayam/SEM-6/Data warehousing and mining ICS 321/Lab/Lab - 1")
+setwd("C:/Users/ASUS/OneDrive/Desktop/Study-Material/IIIT-Kottayam/SEM-6/Data warehousing and mining ICS 321/Lab/Lab-1")
 data <- read.csv("cereal.csv")
 print(data)
 
@@ -116,7 +121,7 @@ sug
 data.frame(sug$name,sug$calories,sug$vitamins)
 
 # writing the kell data into a csv file
-write.csv(kell,"C:/Users/ASUS/OneDrive/Desktop/Study-Material/IIIT-Kottayam/SEM-6/Data warehousing and mining ICS 321/Lab/Lab - 1/kell.csv",row.names = FALSE)
+# write.csv(kell,"C:/Users/ASUS/OneDrive/Desktop/Study-Material/IIIT-Kottayam/SEM-6/Data warehousing and mining ICS 321/Lab/Lab-1/kell.csv",row.names = FALSE)
 
 # renaming a column
 colnames(data)[colnames(data)=="mfr"] = "Producer"
@@ -124,3 +129,4 @@ data
 
 #2020BCS0094
 #Abhijit Mishra
+
