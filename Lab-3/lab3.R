@@ -14,6 +14,7 @@ pupae <- read.csv("pupae.csv")
 
 # Convert ’CO2_treatment’ to a factor. Inspect the̥
 # levels of this factor variable.
+print(pupae)
 pupae$CO2_treatment <- as.factor(pupae$CO2_treatment)
 levels(pupae$CO2_treatment)
 

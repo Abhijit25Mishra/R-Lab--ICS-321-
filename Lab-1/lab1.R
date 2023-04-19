@@ -96,6 +96,7 @@ print(tail(data))
 print(max(data$protein))
 print(subset(data,rating==max(rating)))
 
+
 # adding new column
 data$totalcarb <- data$carbo + data$sugars
 data
